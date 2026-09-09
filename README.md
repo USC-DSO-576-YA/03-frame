@@ -59,3 +59,14 @@ that the team still needs to answer.
 
 The coordinator commits `project-start.md` once. Other teammates should review
 and contribute to its wording without creating competing copies.
+
+## Pandas quiz tutor
+
+Open a coding-agent session in this repository and say:
+
+> Read `tutor.md` and tutor me for the Module 3 Pandas quiz.
+
+The tutor generates difficult, one-at-a-time tracing questions covering the
+Module 1–3 Pandas vocabulary, including `.loc`, `.iloc`, filtering, sorting,
+cleaning, summaries, typed functions, and `.map()`. It deliberately excludes
+`groupby` and later-course shortcuts.
