@@ -1,0 +1,19 @@
+# Do not commit downloaded or private data. Remove a matching rule only when
+# the professor explicitly says a specific instructor-provided sample belongs
+# in Git.
+data/
+downloads/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.zip
+
+# Do not commit credentials or local environment settings.
+.env
+.env.*
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db
